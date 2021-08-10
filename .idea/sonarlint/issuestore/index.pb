@@ -1,12 +1,6 @@
 
-9
-	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 D
 src/serviceWorker.js,9/2/920ab6ab4a57ee20a36df4e3e2e73b70f9969d14
-A
-src/setupTests.js,b/7/b7e8d8f421068b8d51c89805d2035e747be2ff17
-=
-src/index.css,c/5/c5d38a62d1faae90a2acaa34b79a7ef365c917e4
 ]
 -src/app/components/counter/Counter.module.css,6/b/6b2fe6cbd2278f1299e288e1f1b05bf54f283efa
 X
