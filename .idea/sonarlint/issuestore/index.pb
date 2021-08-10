@@ -23,5 +23,3 @@ N
 src/app/assets/send-button.svg,8/d/8d6d17624b75731add5176d3c2f552ba8a8cb145
 <
 src/index.js,f/9/f900edc44cb929c2267a16100a32851f6d5b477d
-j
-:src/app/components/UserMessageInput/UserInputsContainer.js,7/f/7fdb4497061a45640a35c3ae8079d1438075d073

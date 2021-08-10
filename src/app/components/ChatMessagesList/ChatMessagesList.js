@@ -34,8 +34,8 @@ const ChatMessagesList = () => {
     <div className="chat-messages-list">
       {messages?.map(({ fromUser, messageText, date }, index) => (
         <>
-          {shouldShowDate(date, index) && <span className="chat-messages-list--date-separator">{getDateLabel(date)}</span>}
-          <ChatMessage userNumber={fromUser} text={messageText} />
+          {shouldShowDate(date, index) && <span key={`date-from-${fromUser}-${index}`} className="chat-messages-list--date-separator">{getDateLabel(date)}</span>}
+          <ChatMessage key={`message-from-${fromUser}-${index}`} userNumber={fromUser} text={messageText} />
         </>
       ))}
     </div>

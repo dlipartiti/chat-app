@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ChatMessage = ({ userNumber, text }) => {
+const ChatMessage = ({ userNumber, text, keyToUse }) => {
   const speechBubbleClasses = `chat-messages-list--speech-bubble user${userNumber}`;
 
   return (

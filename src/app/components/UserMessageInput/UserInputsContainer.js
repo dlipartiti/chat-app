@@ -1,9 +1,8 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 
 import UserMessageInput from './UserMessageInput';
 
-const UserInputsContainer = props => {
+const UserInputsContainer = () => {
   return (
     <div className="user-inputs-container">
       <UserMessageInput userNumber={1} />
@@ -11,7 +10,5 @@ const UserInputsContainer = props => {
     </div>
   );
 };
-
-UserInputsContainer.propTypes = {};
 
 export default UserInputsContainer;
