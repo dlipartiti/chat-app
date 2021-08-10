@@ -1,0 +1,66 @@
+.user-inputs-container {
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: 0 2px 5px 0 #a08b8f;
+  background-color: $white;
+  margin-top: 10px;
+  padding: 0 20px;
+  border-radius: 0 0 10px 10px;
+
+  &--input:last-of-type {
+    border-right: none;
+  }
+
+  &--input {
+    padding: 10px;
+    border-right: 1px solid #f3f3f3;
+    display: flex;
+    justify-content: center;
+
+    form {
+      width: auto;
+      display: flex;
+      align-items: center;
+    }
+
+    input {
+      padding: 10px;
+      margin-right: 5px;
+      border: 1px solid lightgray;
+      border-radius: 20px;
+      outline: 0;
+      width: 50%;
+    }
+
+    &_submit.user1 {
+      background-color: $bgcolor-user1;
+    }
+    &_submit.user2 {
+      background-color: $bgcolor-user2;
+    }
+    &_submit.user3 {
+      background-color: $bgcolor-user3;
+    }
+    &_submit.user4 {
+      background-color: $bgcolor-user4;
+    }
+
+    &_submit {
+      border-radius: 200px;
+      border: 0;
+      width: 37px;
+      height: 37px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      &.disabled {
+        background-color: grey;
+      }
+
+      &::before {
+        content: url('../../assets/send-button.svg');
+      }
+    }
+  }
+}

@@ -4,7 +4,7 @@ import {
   decrement,
   increment,
   selectCount,
-} from '../../reduxSlices/counterSlice';
+} from '../../reducers/counterSlice';
 import styles from './Counter.module.css';
 
 export function Counter() {
