@@ -4,7 +4,7 @@ import {
   decrement,
   increment,
   selectCount,
-} from '../../reducers/counterSlice';
+} from '../../reducers/chatSlice';
 import styles from './Counter.module.css';
 
 export function Counter() {

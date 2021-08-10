@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import { addNewUserMessage } from '../../reducers/counterSlice';
+import { addNewUserMessage } from '../../reducers/chatSlice';
 
 const UserMessageInput = ({ userNumber }) => {
   const dispatch = useDispatch();
