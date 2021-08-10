@@ -7,8 +7,6 @@ X
 (src/app/components/counter/counterAPI.js,b/7/b7ac9e47e936b7a008ef0d857c51252673683401
 \
 ,src/app/components/ChatMessagesList/index.js,7/e/7ebf8ab8d40f700bf78763d88f8c732f04b17c03
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 A
 public/index.html,f/4/f43ecdf8d666ee908aacce037b4cd72159e4741b
 \

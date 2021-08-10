@@ -6,6 +6,22 @@
   position: relative;
   height: 100vh;
 
+  .chat-clear-messages {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px 0 grey;
+    cursor: pointer;
+    background-color: #efefef;
+
+    &:hover {
+      background-color: #dbdada;
+    }
+  }
+
   .chat-container {
     position: absolute;
     right: 20px;
@@ -22,7 +38,7 @@
     justify-content: space-between;
 
     @media screen and (max-width: 576px) {
-      height: 95vh;
+      height: 85vh;
     }
   }
 }

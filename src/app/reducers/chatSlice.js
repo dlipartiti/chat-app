@@ -18,11 +18,14 @@ export const chatSlice = createSlice({
   reducers: {
     addNewUserMessage: (state, action) => {
       state.messages.push(action.payload);
+    },
+    deleteUserMessage: (state) => {
+      state.messages = [];
     }
   },
 });
 
-export const { addNewUserMessage } = chatSlice.actions;
+export const { addNewUserMessage, deleteUserMessage } = chatSlice.actions;
 
 export const getMessages = (state) => state.chat.messages;
 
